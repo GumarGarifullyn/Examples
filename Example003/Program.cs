@@ -1,6 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-int numberA = 3;
-int numberB = 5;
+int numberA = new Random().Next(1,100);
+Console.WriteLine(numberA);
+int numberB = new Random().Next(1,100);
+Console.WriteLine(numberB);
 int resulte = numberA + numberB;
-Console.WriteLine(resulte);
+Console.WriteLine("Вот наш результат: " + resulte);
